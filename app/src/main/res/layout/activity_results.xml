@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient1"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/resultNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            android:background="@drawable/roundcornersdark"
+            android:fontFamily="@font/aldrich"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp"
+            android:text="@string/quizNameTV"
+            android:textAlignment="center"
+            android:textColor="@color/colorHighlight"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/resultScoreTV"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            android:background="@drawable/roundcornersdark"
+            android:fontFamily="@font/aldrich"
+            android:paddingBottom="10sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorHighlight"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultQuestionNumberTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="3sp"
+            android:background="@drawable/roundcorners"
+            android:fontFamily="@font/aldrich"
+            android:padding="5sp"
+            android:text="@string/resultsString"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/resultQuestionTV"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="3sp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/roundcorners"
+            android:fontFamily="@font/aldrich"
+            android:padding="10sp"
+            android:scrollbars="vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/resultRestartBtn"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/roundcornerslarge"
+            android:backgroundTint="@color/colorHighlight"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/restartBtn"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/resultsEndBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/roundcornerslarge"
+            android:backgroundTint="@color/colorHighlight"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/endBtn"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

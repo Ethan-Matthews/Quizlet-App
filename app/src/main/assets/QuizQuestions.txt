@@ -1,0 +1,20 @@
+This gesture triggers the default functionality for a given item. Action = press, lift.
+Gesture - Touch
+This gesture enters data selection mode. Allows you to select one or more items in a view and act upon the data using a contextual action bar. Action = press, wait, lift.
+Gesture - Long Press
+This gesture scrolls overflowing content, or navigates between views in the same hierarchy. Action = press, move, life.
+Gesture - Swipe
+This gesture rearranges data within a view, or moves data into a container (e.g. folders on Home Screen). Action = long press, move, lift.
+Gesture - Drag
+This gesture zooms into content. Also used as a secondary gesture for text selection. Action = Two touches in quick succession.
+Gesture - Double Touch
+This gesture zooms into content. Action = 2-finger press, move outwards, lift.
+Gesture - Pinch Open
+This gesture zooms out of content. Action = 2-finger press, move inwards, lift.
+Gesture - Pinch Close
+This is used to navigate within an app based on the hierarchical relationships between screens. For instance, if screen A displays a list of items, and selecting an item leads to screen B (which presents that item in more detail), then screen B should offer an Up button that returns to screen A.
+Up button
+This is used to navigate, in reverse chronological order, through the history of screens the user has recently worked with. It is generally based on the temporal relationships between screens, rather than the app's hierarchy.
+System back button
+This is arguably the most important structural element of an Android app. It's a dedicated piece of real estate at the top of each screen that is generally persistent throughout the app.
+Action bar

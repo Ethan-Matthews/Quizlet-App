@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quizlet Application</string>
+    <string name="namePT">Name</string>
+    <string name="titleTV">\n\nWelcome to the Quizlet Application</string>
+    <string name="nameTV">Please enter your name below.</string>
+    <string name="nextBtn">Next</string>
+    <string name="startBtn">Start</string>
+    <string name="endBtn">Quit</string>
+    <string name="restartBtn">Restart</string>
+    <string name="quizNameTV" />
+    <string name="userName" />
+    <string name="scoreTV">Score:</string>
+    <string name="resultsString">RESULTS</string>
+    <string name="creatorName">Ethan Matthews W0420789</string>
+</resources>
